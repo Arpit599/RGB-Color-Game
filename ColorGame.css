@@ -1,0 +1,72 @@
+body{
+  background: #232323;
+  margin:0;
+  font-family:"Bahnschrift";
+}
+h1{
+  color:white;
+  text-align:center;
+  background:steelblue;
+  margin:0;
+  text-transform:uppercase;
+  padding:20px 0;
+  font-weight:normal;
+  line-height:1.1;
+}
+
+h1 span{
+  font-size:200%;
+}
+#stripe{
+  color:black;
+  background: white;
+  height:30px;
+  text-align: center;
+}
+
+.square{
+  width:30%;
+  background: red;
+  margin:1.66%;
+  height:45%;
+  float:left;
+  border-radius:15%;
+  transition: background,0.5s;
+  /* padding-bottom:30%; Not geting the use of padding-bottom here */
+  /* min-height:50px; */
+}
+
+#container{
+  width: 600px;
+  margin: 20px auto;
+  height:400px;
+}
+
+.selected{
+  background: steelblue;
+  color:white;
+}
+
+button{
+  text-transform:uppercase;
+  border:none;
+  background:none;
+  height:100%;
+  font-family: "Bahnschrift";
+  letter-spacing:1px;
+  color:steelblue;
+  font-weight: 800;
+  font-size:inherit;
+  transition: background,0.4s;
+  outline:none;
+}
+
+#Message{
+  display:inline-block;
+  width:20%;
+}
+
+button:hover{
+  background: steelblue;
+  color:white;
+}
